@@ -1,1 +1,5 @@
--e ".env\n.ipynb_checkpoints/\n__pycache__/\n*.pyc\n.DS_Store" 
+echo .env > .gitignore
+echo .ipynb_checkpoints/ >> .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo .DS_Store >> .gitignore
